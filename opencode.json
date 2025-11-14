@@ -4,8 +4,8 @@
     "chrome-dev-tools": {
       "type": "local",
       "command": ["npx", "-y", "chrome-devtools-mcp@latest"],
-      "enabled": true,
-    },
-  },
+      "enabled": true
+    }
+  }
 }
 
