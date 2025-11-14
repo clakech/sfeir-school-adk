@@ -1,8 +1,8 @@
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="xxx" -->
+<!-- .slide: class="first-slide" sfeir-level="1" sfeir-techno="adk" -->
 
 # **Welcome to SFEIR School**
 
-## **XXX 200**
+## **ADK 100**
 
 ##==##
 
@@ -23,7 +23,7 @@ Credentials
 <!-- .element: class="center" -->
 <br>
 
-![](fa-user 'tc-icons fa fa-solid tc-big')<!-- .element: style="--tc-icon-color:var(--light-grey);" --> SSID
+![](fa-user 'tc-icons fa fa-solid tc-big')<!-- .element: style="--tc-icon-color:var(--light-grey);" --> sfeir-guest
 
 ![](fa-lock 'tc-icons fa fa-solid tc-big')<!-- .element: style="--tc-icon-color:var(--light-grey);" --> PWD
 
@@ -40,4 +40,4 @@ Tour de table ...
 
 **Feuille de présence (obligatoire)** <!-- .element: class="center" -->
 
-https://bit.ly/sfeir-xxx <!-- .element: class="center" -->
+https://bit.ly/sfeir-adk <!-- .element: class="center" -->
