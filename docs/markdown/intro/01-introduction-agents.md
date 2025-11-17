@@ -397,7 +397,7 @@ Notes:
 |-----------|----------------|-------------------|
 | **LangChain** | 120k+ ⭐ | Plateforme complète (LangGraph + LangSmith) |
 | **CrewAI** | 40k+ ⭐ | Multi-agents, déploiement production |
-| **Google ADK** | 15k+ ⭐ | Toolkit Python code-first |
+| **Google ADK** | 15k+ ⭐ | Toolkit Python code-first, intégration simplifiée à GCP |
 
 <br>
 
