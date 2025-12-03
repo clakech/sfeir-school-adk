@@ -172,18 +172,18 @@ Notes:
 
 <br>
 
-```javascript
-const tools = [
-  {
-    name: "search_web",
-    description: "Recherche sur internet",
-    parameters: { query: "string" }
-  },
-  {
-    name: "send_email",
-    description: "Envoie un email",
-    parameters: { to: "string", subject: "string", body: "string" }
-  }
+```python
+tools = [
+    {
+        "name": "search_web",
+        "description": "Recherche sur internet",
+        "parameters": {"query": "string"}
+    },
+    {
+        "name": "send_email",
+        "description": "Envoie un email",
+        "parameters": {"to": "string", "subject": "string", "body": "string"}
+    }
 ]
 ```
 
