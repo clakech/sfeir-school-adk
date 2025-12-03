@@ -247,6 +247,8 @@ Règles :
 - Proposer du code testé et commenté
 - Demander des clarifications si nécessaire
 - Utilise l'outil "run_code" pour tester
+- Ne jamais exécuter de code destructif (DROP, DELETE)
+- Ne pas accéder aux fichiers système sensibles
 
 Ton style : professionnel mais accessible
 ```
@@ -385,6 +387,34 @@ Notes:
 
 <!-- .slide -->
 
+# Quand NE PAS utiliser un agent ?
+
+<br>
+
+| ❌ Éviter les agents | ✅ Préférer |
+|---------------------|-------------|
+| Tâches simples et déterministes | Script classique, règles métier |
+| Besoin de résultats 100% prévisibles | Algorithmes traditionnels |
+| Latence critique (< 100ms) | API directe, cache |
+| Budget tokens très limité | Modèle plus petit, fine-tuning |
+| Données hautement sensibles | Traitement local, règles fixes |
+
+<br>
+
+### 💡 Un agent ajoute de la complexité - l'utiliser quand ça apporte de la valeur
+
+Notes:
+- Les agents ne sont pas toujours la solution
+- Coût en latence : chaque appel LLM prend du temps
+- Coût en tokens : raisonnement = tokens supplémentaires
+- Imprévisibilité : le LLM peut varier ses réponses
+- Sécurité : plus de surface d'attaque avec les outils
+- Règle : si un if/else suffit, pas besoin d'agent
+
+##==##
+
+<!-- .slide -->
+
 # Les frameworks d'agents
 
 <br>
@@ -433,6 +463,8 @@ Notes:
 - ROI mesurable dans ces domaines
 - On va en construire plusieurs pendant la formation
 - Penser à vos propres cas d'usage
+- Exemple ROI concret : Klarna (2024) - leur agent IA gère 2/3 des conversations support client, équivalent à 700 agents temps plein, résolution en 2min vs 11min avant (source: Klarna press release, Feb 2024)
+- Autre exemple : GitHub Copilot - développeurs 55% plus rapides sur les tâches de coding (étude GitHub 2022)
 
 ##==##
 
