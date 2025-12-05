@@ -18,7 +18,16 @@ function sessionMemoireSlides() {
 }
 
 function multiAgentsSlides() {
-  return ['03-multi-agents/00-TITLE.md'];
+  return [
+    '03-multi-agents/00-TITLE.md',
+    '03-multi-agents/01-intro.md',
+    '03-multi-agents/02-sequential-agent.md',
+    '03-multi-agents/03-parallel-agent.md',
+    '03-multi-agents/04-loop-agent.md',
+    '03-multi-agents/05-agent-tool.md',
+    '03-multi-agents/06-custom-agent.md',
+    '03-multi-agents/07-a2a-protocol.md',
+  ];
 }
 
 function fonctionnalitesAvanceesSlides() {
