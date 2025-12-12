@@ -18,12 +18,12 @@ function introSlides() {
 
 function outillageSlides() {
   return [
-    '01-outillage/00-TITLE.md',
-    '01-outillage/01-introduction-tooling.md',
-    '01-outillage/02-gemini-tools.md',
-    '01-outillage/03-third-party-tools.md',
-    '01-outillage/04-custom-tools.md',
-    '01-outillage/05-best-practices.md'
+    '02-outillage/00-TITLE.md',
+    '02-outillage/01-introduction-tooling.md',
+    '02-outillage/02-gemini-tools.md',
+    '02-outillage/03-third-party-tools.md',
+    '02-outillage/04-custom-tools.md',
+    '02-outillage/05-best-practices.md'
   ];
 }
 
