@@ -6,7 +6,14 @@ function schoolSlides() {
 }
 
 function introSlides() {
-  return ['intro/00-TITLE.md', 'intro/01-introduction-agents.md', 'intro/99-lab-workshop-example.md'];
+  return [
+    '01-intro/00-TITLE.md',
+    '01-intro/01-LLM.md',
+    '01-intro/02-agents.md',
+    '01-intro/03-prompting.md',
+    '01-intro/04-first-agent.md',
+    '01-intro/99-lab-workshop-hello.md'
+  ]; 
 }
 
 function outillageSlides() {

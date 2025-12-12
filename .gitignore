@@ -68,3 +68,7 @@ typings/
 
 #Dev
 docs/test.html
+
+# ADK specific ignores
+.adk/
+__pycache__/
