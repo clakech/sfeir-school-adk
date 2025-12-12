@@ -12,7 +12,7 @@ function introSlides() {
     '01-intro/02-agents.md',
     '01-intro/03-prompting.md',
     '01-intro/04-first-agent.md',
-    '01-intro/99-lab-workshop-hello.md'
+    '01-intro/99-lab-workshop-agent.md'
   ]; 
 }
 
@@ -23,7 +23,8 @@ function outillageSlides() {
     '02-outillage/02-gemini-tools.md',
     '02-outillage/03-third-party-tools.md',
     '02-outillage/04-custom-tools.md',
-    '02-outillage/05-best-practices.md'
+    '02-outillage/05-best-practices.md',
+    '02-outillage/99-lab-workshop-tools.md'
   ];
 }
 
