@@ -8,7 +8,7 @@
 
 Dans ce premier lab vous ferez un premier agent simple qui vous répondra d'un bonjour personnalisé
 
-### Go to 01-workshop-hello
+### Go to 01-workshop-agent
 
 Notes:
 

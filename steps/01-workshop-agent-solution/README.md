@@ -1,11 +1,11 @@
-# 01-workshop-meteo instructions
+# 01-workshop-agent instructions
 
 Pour ce premier lab vous allez créer votre premier agent qui devra appeler un tool pour vous répondre un message de bienvenue "Bonjour <votre_nom>".
 
 ## How to run?
 
 ```Bash
-cd ./steps/01-workshop-hello
+cd ./steps/01-workshop-agent
 ```
 ```Bash
 pip install google-adk
