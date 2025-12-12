@@ -2,14 +2,18 @@
 
 <div class="speaker-slide">
 
-# Baptiste WLODARCZYK
+# Speakers
 
-## IA Engineer
+## Baptiste WLODARCZYK
+
+###  IA Engineer
 
 ### @baptiste_wlodarczyk
 
-![](./assets/images/baptiste.jpg 'speaker')
+![](./assets/images/baptiste.jpeg 'speaker')
 
 ![](./assets/images/logo-sfeir-blanc.png 'company')
+
+![](./assets/images/google-genai-leader.png 'badge')
 
 </div>

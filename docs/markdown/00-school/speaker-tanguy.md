@@ -2,13 +2,17 @@
 
 <div class="speaker-slide">
 
-# Tanguy BAUDRIN
+# Speakers
 
-## Staff Engineer
+## Tanguy BAUDRIN
 
-### @tanguy.baudrin.fr
+### Staff Engineer
 
-![](./assets/images/tanguy.jpg 'speaker')
+### tanguy-baudrin
+
+### baudrin.t@sfeir.com
+
+![](./assets/images/tanguy.png 'speaker')
 
 ![](./assets/images/logo-sfeir-blanc.png 'company')
 
