@@ -29,7 +29,14 @@ function outillageSlides() {
 }
 
 function sessionMemoireSlides() {
-  return ['02-session-memoire/00-TITLE.md'];
+  return [
+    '02-session-memoire/00-TITLE.md',
+    '02-session-memoire/01-INTRO.md',
+    '02-session-memoire/02-SESSIONS.md',
+    '02-session-memoire/03-STATE.md',
+    '02-session-memoire/04-MEMORY.md',
+    '02-session-memoire/05-LAB.md',
+  ];
 }
 
 function multiAgentsSlides() {
