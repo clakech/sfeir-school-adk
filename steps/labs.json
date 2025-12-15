@@ -1,3 +1,10 @@
 {
-  "labs": ["01-workshop-example", "01-workshop-example-solution"]
+  "labs": [
+    "01-workshop-agent",
+    "01-workshop-agent-solution",
+    "02-workshop-tools",
+    "02-workshop-tools-solution",
+    "04-workshop-advanced",
+    "04-workshop-advanced-solution"
+  ]
 }
