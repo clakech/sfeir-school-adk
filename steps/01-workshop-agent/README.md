@@ -54,4 +54,4 @@ Maintenant que vous avez pu vérifier que votre agent fonctionne, vous allez pou
 
 Mettez à jour les instructions pour que l'agent se contente uniquement de dire bonjour à l'utilisateur, eventuellement en donnant le nom de la personne.
 
-Une fois les modifications faites vous pouvez retester votre agent en redémarrant la commande `adk web`
+Une fois les modifications faites vous pouvez retester votre agent en redémarrant la commande `adk web`.
