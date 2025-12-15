@@ -46,7 +46,11 @@ function multiAgentsSlides() {
 }
 
 function fonctionnalitesAvanceesSlides() {
-  return ['04-fonctionnalites-avancees/00-TITLE.md'];
+  return ['04-fonctionnalites-avancees/00-TITLE.md',
+    '04-fonctionnalites-avancees/01-structured-output.md',
+    '04-fonctionnalites-avancees/02-callbacks-plugins.md',
+    '04-fonctionnalites-avancees/03-context-optimization.md',
+  ];
 }
 
 export function formation() {
