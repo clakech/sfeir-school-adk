@@ -13,7 +13,7 @@ function introSlides() {
     '01-intro/03-prompting.md',
     '01-intro/04-first-agent.md',
     '01-intro/99-lab-workshop-agent.md'
-  ]; 
+  ];
 }
 
 function outillageSlides() {
@@ -30,12 +30,12 @@ function outillageSlides() {
 
 function sessionMemoireSlides() {
   return [
-    '02-session-memoire/00-TITLE.md',
-    '02-session-memoire/01-INTRO.md',
-    '02-session-memoire/02-SESSIONS.md',
-    '02-session-memoire/03-STATE.md',
-    '02-session-memoire/04-MEMORY.md',
-    '02-session-memoire/05-LAB.md',
+    '03-session-memoire/00-TITLE.md',
+    '03-session-memoire/01-INTRO.md',
+    '03-session-memoire/02-SESSIONS.md',
+    '03-session-memoire/03-STATE.md',
+    '03-session-memoire/04-MEMORY.md',
+    '03-session-memoire/99-lab-workshop-memory.md',
   ];
 }
 
