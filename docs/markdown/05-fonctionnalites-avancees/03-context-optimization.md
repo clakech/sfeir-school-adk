@@ -74,7 +74,7 @@ Pour gérer une conversation "infinie", on ne peut pas tout garder. La compressi
 
 ## Workflow de Compression
 
-![](./assets/images/context-compaction.png 'context-compaction')
+![](./assets/images/context-compaction.png)
 
 - **Événement 3 terminé** : Les 3 premiers événements sont compressés en un résumé.
 - **Événement 6 terminé** : Les événements 3 à 6 sont compressés, avec un chevauchement d'un événement précédent.
