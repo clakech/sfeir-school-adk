@@ -46,7 +46,7 @@ root_agent = Agent(
 
 Comme vous pouvez le constater pour l'instant notre agent se contente simplement de répondre aux questions de l'utilisateur
 
-Testons ce premier agent en lancant la commande `adk web` qui permettra d'avoir une interface de chat avec votre agent. L'interface est accessible ici: https://127.0.0.1:8000
+Testons ce premier agent en lancant la commande `adk web` qui permettra d'avoir une interface de chat avec votre agent. L'interface est accessible ici: http://127.0.0.1:8000
 
 ## Modification de l'agent
 
