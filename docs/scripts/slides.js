@@ -49,16 +49,24 @@ function multiAgentsSlides() {
     '04-multi-agents/05-agent-tool.md',
     '04-multi-agents/06-custom-agent.md',
     '04-multi-agents/07-a2a-protocol.md',
+    '04-multi-agents/99-lab-workshop-multi-agent.md'
   ];
 }
 
 function fonctionnalitesAvanceesSlides() {
-  return ['04-fonctionnalites-avancees/00-TITLE.md',
-    '04-fonctionnalites-avancees/01-structured-output.md',
-    '04-fonctionnalites-avancees/02-callbacks-plugins.md',
-    '04-fonctionnalites-avancees/03-context-optimization.md',
+  return ['05-fonctionnalites-avancees/00-TITLE.md',
+    '05-fonctionnalites-avancees/01-structured-output.md',
+    '05-fonctionnalites-avancees/02-callbacks-plugins.md',
+    '05-fonctionnalites-avancees/03-context-optimization.md',
+    '05-fonctionnalites-avancees/99-lab-workshop-advanced.md'
   ];
 }
+
+function outroSlides() {
+  return ['99-outro/00-TITLE.md',
+  ];
+}
+
 
 export function formation() {
   return [
@@ -69,6 +77,7 @@ export function formation() {
     ...sessionMemoireSlides(),
     ...multiAgentsSlides(),
     ...fonctionnalitesAvanceesSlides(),
+    ...outroSlides(),
   ].map((slidePath) => {
     return { path: slidePath };
   });
