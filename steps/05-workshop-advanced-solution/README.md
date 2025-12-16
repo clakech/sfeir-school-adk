@@ -1,11 +1,11 @@
-# 04-workshop-advanced instructions
+# 05-workshop-advanced instructions
 
 Dans ce lab vous allez créer un agent de planification de voyage qui démontre les fonctionnalités avancées de l'ADK : structured output, callbacks/plugins, et optimisation du contexte.
 
 ## How to run?
 
 ```Bash
-cd ./steps/04-workshop-advanced
+cd ./steps/05-workshop-advanced
 ```
 
 # TP
