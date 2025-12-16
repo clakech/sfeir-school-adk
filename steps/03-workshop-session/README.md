@@ -26,16 +26,17 @@ Commencez par structurer votre agent dans un package `memory_agent` avec un fich
 
 #### Objectif
 
-Votre but est de configurer l'agent pour qu'il utilise le service de mémoire et de session en mémoire (`InMemory`).
+Votre but est de configurer l'agent pour qu'il utilise le service de mémoire et de session.
 
 Vous devez :
-1.  **Configurer les services** : Instancier `InMemoryMemoryService` et `InMemorySessionService`.
-2.  **Sauvegarder** : Mettre en place un mécanisme pour sauvegarder la session dans la mémoire à la fin de chaque interaction (indice : regardez du côté des callbacks de l'agent).
-3.  **Retrouver** : Assurez-vous que l'agent a les moyens de retrouver l'information (indice : il existe un tool fait pour ça).
-4.  **Tester** : Vérifiez que l'agent se souvient de votre nom même si vous simulez une nouvelle session.
+1.  **Configurer les outils** : L'agent doit avoir le tool `load_memory` pour récupérer les informations passées.
+2.  **Sauvegarder** : Mettre en place un callback qui sera appelé après chaque interaction pour sauvegarder la session dans la mémoire (indice : `after_agent_callback` et `callback_context.add_session_to_memory()`).
+3.  **Tester** : Vérifiez que l'agent se souvient de votre nom même si vous créez une nouvelle session (bouton "New Chat" dans l'interface).
 
+> **Note**: Avec `adk web`, les services `InMemoryMemoryService` et `InMemorySessionService` sont créés automatiquement par le framework. Vous n'avez pas besoin de les instancier vous-même.
 
-> **Note**: Avec `InMemory`, la mémoire est conservée tant que le processus Python tourne.
+> **Astuce**: Pour vérifier que le mécanisme fonctionne, regardez les logs dans le terminal. Vous devriez voir l'agent appeler le tool `load_memory` lors de la deuxième session.
+
 
 ### Test
 

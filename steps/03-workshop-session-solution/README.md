@@ -1,12 +1,20 @@
-# 03-workshop-session Instructions
-
 ## How to run?
 
 ```Bash
-cd ./steps/03-workshop-session
+cd ./steps/03-workshop-session-solution
 ```
 
-## TP
+1. Install dependencies:
+```Bash
+pip install google-adk
+```
+
+2. Run the agent:
+```Bash
+adk web
+```
+
+The agent uses a callback to save sessions to memory after each turn, and the `load_memory` tool to retrieve past conversations across sessions.
 
 ### Création de l'agent
 
