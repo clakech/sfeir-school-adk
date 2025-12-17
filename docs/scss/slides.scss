@@ -1,3 +1,19 @@
 .reveal .slides section {
     // Do some stuff
 }
+
+// Keep transition slides readable and with branded background (relative path works on GitHub Pages)
+.reveal .slides section.transition {
+    background: #0b1c2c url('../assets/images/sfeir-school-logo.png') center center / contain no-repeat;
+    color: #ffffff;
+}
+
+.reveal .slides section.transition h1,
+.reveal .slides section.transition h2,
+.reveal .slides section.transition h3,
+.reveal .slides section.transition h4,
+.reveal .slides section.transition h5,
+.reveal .slides section.transition h6,
+.reveal .slides section.transition p {
+    color: #ffffff;
+}

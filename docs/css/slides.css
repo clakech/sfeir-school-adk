@@ -1,8 +1,5 @@
-
-
-/* Ensure transition slides stay legible even on light backgrounds */
 .reveal .slides section.transition {
-  background: #0b1c2c;
+  background: #0b1c2c url("../assets/images/sfeir-school-logo.png") center center/contain no-repeat;
   color: #ffffff;
 }
 
