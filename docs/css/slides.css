@@ -1,3 +1,18 @@
 
+/* Ensure transition slides stay legible even on light backgrounds */
+.reveal .slides section.transition {
+  background: #0b1c2c;
+  color: #ffffff;
+}
+
+.reveal .slides section.transition h1,
+.reveal .slides section.transition h2,
+.reveal .slides section.transition h3,
+.reveal .slides section.transition h4,
+.reveal .slides section.transition h5,
+.reveal .slides section.transition h6,
+.reveal .slides section.transition p {
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=slides.css.map */
