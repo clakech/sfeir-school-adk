@@ -13,4 +13,32 @@
   color: #ffffff;
 }
 
+.reveal .slides section.transition-bg-green-1 {
+  background-image: url("../web_modules/sfeir-school-theme/dist/images/bg-green-1.webp");
+}
+
+.reveal .slides section.transition-bg-green-2 {
+  background-image: url("../web_modules/sfeir-school-theme/dist/images/bg-green-2.webp");
+}
+
+.reveal .slides section.transition-bg-green-3 {
+  background-image: url("../web_modules/sfeir-school-theme/dist/images/bg-green-3.webp");
+}
+
+.reveal .slides section.transition-bg-green-4 {
+  background-image: url("../web_modules/sfeir-school-theme/dist/images/bg-green-4.webp");
+}
+
+.reveal .slides section.transition-bg-green-5 {
+  background-image: url("../web_modules/sfeir-school-theme/dist/images/bg-green-5.webp");
+}
+
+.reveal .slides section.transition-bg-green-6 {
+  background-image: url("../web_modules/sfeir-school-theme/dist/images/bg-green-6.webp");
+}
+
+.reveal .slides section.transition-bg-green-blur {
+  background-image: url("../web_modules/sfeir-school-theme/dist/images/bg-green-blur.webp");
+}
+
 /*# sourceMappingURL=slides.css.map */
